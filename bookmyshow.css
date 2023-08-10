@@ -1,0 +1,490 @@
+*{
+margin:0;
+font-family: sans-serif;
+overflow-x:hidden;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+header .header1{
+    display:flex;
+    background-color: #333545;
+    width:100%;
+    height:50px;
+    padding:20px 150px 0px;
+}
+
+header input{
+    width:550px;
+    border-radius:7px;
+    margin-left:10px;
+    height:40px;
+    margin-top:-5px;
+    font-size:15px;
+    color:#FFFFFF;
+    
+}
+header button{
+    background-color: #F84464;
+    color:white;
+    width:80px;
+    height:30px;
+    box-shadow:none;
+    border-radius:8px;
+  margin-right: 20px;
+}
+header select{
+    background-color:#333545;
+    width:80px;
+    height:30px;
+    margin-left:350px ;
+    margin-right:10px;
+    color:#CCCCCC;
+    border:none;
+    font-size: 15px;
+}
+header i{
+    color:#CCCCCC;
+    font-size:large;
+    margin-top:5px;
+
+}
+header .header2{
+width:100%;
+height:40px;
+background-color:#222539;
+display: flex;
+}
+header .header2 .header2one{
+    display:flex;
+    padding:12px 0px 0px;
+    color:#CCCCCC;
+    margin-left:150px;
+    margin-right:600px;
+    font-size: 14px;
+}
+header .header2 .header2one a,.header2two a{
+    margin-right:12px;
+}
+header .header2 .header2two{
+    color:white;
+    padding:12px 0px 0px;
+    font-size: 12px;
+    
+}
+
+main .recmovies{
+   
+    margin-left:150px;
+    margin-right: 134px;
+    padding:0px 150px 0px 0px;
+    height:1060px;
+
+    
+}
+main .recmovies .recmovieshead{
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+main .recmovies .recmovieshead h2{
+    margin-right:700px;
+}
+
+.recmovie{
+    display: flex;
+    justify-content: space-between;
+
+    width:1236px;
+   
+}
+.recmovies .card-container{
+    width:220px;
+    height:430px;
+    margin-top:10px;
+
+}
+
+
+
+img{
+     border-radius: 10px;
+    width: 100%;
+    height:370px;
+}
+.card-container .info1{
+    margin-top:10px;
+    font-size: 18px;
+    color:#222222;
+}
+.card-container .info2{
+    margin-top:10px;
+    font-size: 16px;
+    color:#666666;
+}
+.bookmyshowlong{
+    width:1400px;
+}
+.bookmyshowlong img{
+    height:100px;
+    width:1300px;
+    margin-top:80px;
+}
+.recmovies .liveeventshead{
+    margin-top:80px;
+}
+
+.liveevents{
+    display: flex;
+    justify-content: space-between;
+   margin-top: 10px;
+    width:1230px;
+    margin-bottom:10px;
+}
+.liveevents img{
+    height:220px;
+    width:220px;
+    border-radius: 10px;
+}
+.premiere-img{
+    margin-left:150px;
+   height:100px;
+   width:50%;
+   background-image: url('premiere-banner.avif');
+}
+.premiere{
+    width:100%;
+    height:680px;
+    background-color:#2B3148;
+    justify-content: space-evenly;
+
+
+}
+.premieres
+{
+    margin-top:50px;
+    margin-left:150px;
+}
+.premiereshead h2,h5{
+    color:white;
+}
+.premiereshead h5{
+    margin-bottom:10px;
+}
+
+.premiere-card-container{
+    width:220px;
+    height:430px;
+    margin-top:10px;
+    overflow-y:hidden;
+
+
+}
+.premiere-card-container .info1{
+    color:white;
+    font-size: large;
+}
+.premiere-card-container .info2{
+    margin-top:10px;
+    color:white;
+}
+.premiere-card-container img{
+    margin-bottom:10px;
+}
+
+.main2{
+    width:100%;
+    
+    display: column;
+    padding:50px 150px 50px 50px;
+
+}
+.main2 .main2movies{
+   
+    margin-left:100px;
+    margin-right: 134px;
+    padding:0px 150px 0px 0px;
+    height:550px;
+    width:1100px;
+
+    
+}
+
+
+.home{
+    background-color:rgb(221, 216, 216);
+    width:100%;
+    height:30px;
+    font-size: 15px;
+    padding:10px 0px 0px 150px;
+
+}
+.footer1{
+    display:flex;
+    width:100%;
+    height:50px;
+    background-color :#333338;
+    color:white;
+    padding:15px 0px 15px 150px;
+   
+}
+
+.footer1 img{
+    
+    height:35px;
+    width:35px;
+}
+.footer1 .footer12 {
+    padding:15px 10px 0px 10px;
+    overflow-y: hidden;
+    
+}
+.footer1 .footer13 {
+    padding:15px 10px 0px 10px;
+    overflow-y: hidden;
+    
+}
+.footer1 .footer14{
+    padding:10px 10px 0px 250px;
+    
+}
+.footer2{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+
+.footer1 button{
+background-color:red;
+color:white;
+border-radius:7px;
+height:40px;
+width:144px;
+padding:10px 20px;
+}
+.footer2{
+    height:80px;
+    background-color: rgb(71, 68, 68);
+    padding:0px 150px 0px 150px;
+}
+.footer2 svg{
+    margin-top:10px;
+    width:50px;
+    height: 50px;
+    color:white;
+}
+.footer3{
+    background-color: rgb(71, 68, 68);
+    display: flex;
+    justify-content: space-around;
+    padding:0px 150px 0px 150px;
+    height:30px;
+}
+.footer3 p{
+    font-size: 11px;
+    color:white;
+}
+.footer4{
+    width:1300;
+    height:700px;
+    padding:50px 150px 0px 100px;
+    background-color: #333338;
+
+}
+.footer4 li{
+    
+    margin-top:10px;
+    display: inline-block;
+    list-style: none;
+    border-right:1px solid black;;
+
+}
+ul{
+    margin-left: -40px;
+}
+.footer5{
+    padding:50px 0px 50px 0px;;
+    display: flex;
+    background-color: #333338;
+    height:50px;
+    overflow-y: hidden;
+    
+}
+.footer5 hr{
+    color:white;
+    width:900px;
+    margin-top:30px;
+    
+}
+.footer5 .hr1{
+    margin-left:50px;
+
+}
+.footer5 img{
+    margin-left:20px;
+    margin-right:20px;
+    width:125px;
+    height:60px;
+    
+}
+.footer6{
+    background-color: #333338;
+    height:40px;
+    width:100%;
+   padding:0px 0px 0px 550px;
+
+}
+.footer6 svg{
+    width:36px;
+    height:36px;
+}
+.footer7{
+    height:50px;
+    width:100%;
+    background-color: #333338;
+
+}
+.footer7 {
+    padding: 30px;
+    font-size: 11px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+}
+
+.trendingnow {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tcontainer {
+    background-color: seashell;
+    border: none;
+    padding: 15px;
+    width: auto;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top; 
+    outline: 0;
+    margin-left: 30px;
+  }
+  
+  .thead {
+    color: rgb(233, 5, 5);
+    margin-top: 0;
+    font-weight: 500;
+    background-color: seashell;
+
+  }
+  
+  .tpara {
+    color: rgb(192, 192, 192);
+    margin: 0;
+    background-color: seashell;
+
+  }
+
+  .abouttheloc{
+  background-color: rgb(71, 71, 71);
+  color: rgb(182, 180, 180);
+  font-family: 'Roboto', 'Arial';
+  font-size: 12px;
+  padding: 2px;
+}
+
+.abouttheloc h4{
+  padding-left: 50px;
+}
+
+.abouttheloc p{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.footer {
+  background-color: rgb(71, 71, 71);
+  padding: 33px;
+  margin-top: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer img {
+  width: 15%;
+  margin-left: 36%;
+  padding-right: 451px
+}
+
+.footer .card {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.card img {
+  margin-inline: 10px;
+  font-size: 25px;
+ 
+}
+
+.footimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+
+.footimg img {
+  margin: 10px;
+  height: 100%;
+  padding-bottom: 5%;
+}
+
+.footimg img:hover {
+  filter: brightness(1.5) contrast(1.2);
+  cursor: pointer;
+  transition: filter 0.15s;
+}
+
+
+.footpara {
+  text-align: center;
+  color: rgb(182, 180, 180);
+  font-size: 11px;
+}
+
+
+.abouttheloc{
+    background-color:#333338;
+    color: rgb(182, 180, 180);
+    font-family: 'Roboto', 'Arial';
+    font-size: 12px;
+    padding: 2px;
+  }
+  
+  .abouttheloc h3{
+    padding-left: 50px;
+    margin-bottom:20px;
+  }
+  
+  .abouttheloc p{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px;;
+  }
+  
+  .trending-main2movies{
+   margin-top:50px;
+    margin-left:100px;
+    margin-right: 134px;
+    padding:0px 150px 0px 0px;
+    height:250px;
+    width:1100px;
+
+    
+}
+
+
